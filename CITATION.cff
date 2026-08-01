@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you reference this portfolio replication package, please cite it using this metadata."
+message: "If you reference this course project repository, please cite it using this metadata."
 title: "Tariff DID Trade Project"
 authors:
   - family-names: "Samiya"
@@ -11,5 +11,5 @@ keywords:
   - applied economics
   - difference-in-differences
   - trade policy
-  - reproducible research
-abstract: "A portfolio replication package demonstrating panel-data construction, fixed-effects DID, event-study diagnostics, placebo checks, and policy-brief writing for a tariff and trade application."
+  - course project
+abstract: "A course project repository with sample data, Stata scripts for panel construction, fixed-effects DID, event-study diagnostics, placebo checks, and a short tariff and trade brief."
