@@ -1,21 +1,17 @@
 # Tariff DID Trade Project
 
-![Status](https://img.shields.io/badge/status-portfolio%20replication%20package-blue)
-![Data](https://img.shields.io/badge/data-synthetic%20sample-lightgrey)
-![Method](https://img.shields.io/badge/method-DID%20%2B%20event%20study-green)
+This is a cleaned GitHub version of a course empirical project. The question is whether a tariff-policy event was related to changes in Chinese provincial exports to the United States, using a province-destination country-month panel from November 2024 to April 2025.
 
-This repository is a quasi-replication package and policy-brief portfolio project for an applied economics coursework study. It asks whether a tariff-policy event affected Chinese provincial exports to the United States using a province-destination country-month panel from November 2024 to April 2025.
+The original course data are not uploaded. The repository includes small synthetic sample files with the same column structure, so the Stata code and folder layout can still be checked.
 
-The project is intentionally framed as a course empirical project, not as a published causal study. Its purpose is to demonstrate reproducible research habits, identification reasoning, robustness diagnostics, and transparent limitations.
-
-## What to Review First
+## Files to Check
 
 | Artifact | Why it matters |
 | --- | --- |
-| [`paper/tariff_did_research_brief.pdf`](paper/tariff_did_research_brief.pdf) | One-page research brief suitable for a writing sample. |
-| [`code/00_master.do`](code/00_master.do) | Master script showing the full Stata workflow. |
-| [`docs/methodology_note.md`](docs/methodology_note.md) | Identification logic, specification choices, and limitations. |
-| [`docs/reproducibility_checklist.md`](docs/reproducibility_checklist.md) | Replication-package checklist modeled on research-assistant workflows. |
+| [`paper/tariff_did_research_brief.pdf`](paper/tariff_did_research_brief.pdf) | Short write-up of the question, method, and limits. |
+| [`code/00_master.do`](code/00_master.do) | Runs the Stata scripts in order. |
+| [`docs/methodology_note.md`](docs/methodology_note.md) | Notes on the DID setup and identification assumption. |
+| [`docs/reproducibility_checklist.md`](docs/reproducibility_checklist.md) | Checklist for files, logs, and outputs. |
 
 ## Research Question
 
@@ -48,7 +44,7 @@ Controls include exchange rate, provincial GDP growth, and inflation where avail
 
 The DID estimate compares changes in exports to policy-exposed destinations with changes in exports to less-exposed destinations before and after the event. The main identifying assumption is that, absent the policy shock, treated and comparison trade flows would have followed parallel trends after conditioning on controls and fixed effects.
 
-The package therefore includes:
+The repo includes:
 
 - descriptive checks
 - parallel-trend diagnostics
@@ -65,15 +61,14 @@ Run the full project in Stata from the repository root:
 do code/00_master.do
 ```
 
-The master script regenerates processed data, tables, figures, logs, and the reproducibility manifest. The repository includes synthetic sample data so the workflow can be inspected without redistributing private coursework or paid database exports.
+The master script is set up to regenerate processed data, tables, figures, logs, and a manifest. The sample data are only included to show the expected file structure.
 
-## Skills Demonstrated
+## What I Practiced
 
-- Panel-data construction from raw province-destination-month inputs.
-- Fixed-effects DID specification and event-study diagnostics.
-- Placebo timing and robustness checks.
-- Research transparency through data documentation, logs, and a reproducibility checklist.
-- Policy-facing communication through a concise research brief.
+- Building a province-destination-month panel.
+- Writing a fixed-effects DID specification in Stata.
+- Adding event-study and placebo-timing checks.
+- Keeping data notes, logs, and output folders organized.
 
 ## Structure
 
@@ -106,8 +101,8 @@ tariff-did-trade-project/
 
 ## Data Availability and Confidentiality
 
-The committed sample files are synthetic and for reproducibility demonstration only. If real coursework data cannot be publicly redistributed, keep it outside GitHub and document its source, access conditions, and cleaning steps in `data/raw/README.md`.
+The committed sample files are synthetic. If real coursework data cannot be publicly redistributed, keep it outside GitHub and document its source, access conditions, and cleaning steps in `data/raw/README.md`.
 
-## Portfolio CV Line
+## Short CV Note
 
 Built a reproducible Stata package for a course empirical project on tariff policy and cross-border trade, including panel construction, fixed-effects DID, event-study diagnostics, placebo checks, and a one-page research brief.
