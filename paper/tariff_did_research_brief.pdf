@@ -15,7 +15,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 6 0 obj
-<< /Length 2713 >>
+<< /Length 2546 >>
 stream
 BT
 /F2 18 Tf
@@ -85,52 +85,47 @@ ET
 BT
 /F1 10 Tf
 72 506 Td
-(would have followed similar paths after fixed effects and controls. Diagnostics. The package) Tj
+(would have followed similar paths after fixed effects and controls. Diagnostics. The scripts) Tj
 ET
 BT
 /F1 10 Tf
 72 492 Td
-(generates a descriptive table, a parallel-trend figure, a baseline DID table, an event-study) Tj
+(create a descriptive table, a parallel-trend figure, a baseline DID table, an event-study) Tj
 ET
 BT
 /F1 10 Tf
 72 478 Td
-(figure, and a placebo/robustness table. These outputs are designed to make identification risks) Tj
+(figure, and a placebo/robustness table. I used these outputs to check whether the DID setup) Tj
 ET
 BT
 /F1 10 Tf
 72 464 Td
-(visible rather than hide them. Interpretation. The project is best read as evidence of applied-) Tj
+(looked reasonable, especially because the sample period is short. Interpretation. This is a) Tj
 ET
 BT
 /F1 10 Tf
 72 450 Td
-(economics preparation. It demonstrates panel construction, treatment definition, fixed effects,) Tj
+(course project, so I would not present it as a definitive policy evaluation. The useful parts) Tj
 ET
 BT
 /F1 10 Tf
 72 436 Td
-(robustness thinking, and reproducible workflow design. Because the project is based on) Tj
+(are the data unit, treatment definition, fixed effects, event-study check, and notes on where) Tj
 ET
 BT
 /F1 10 Tf
 72 422 Td
-(coursework and a short time window, results should be described cautiously and not presented as) Tj
+(the design is weak. What I kept in the public version. The GitHub version keeps the numbered) Tj
 ET
 BT
 /F1 10 Tf
 72 408 Td
-(definitive policy evaluation. Portfolio contribution. This project shows movement from) Tj
+(Stata scripts, sample input files, data dictionary, methodology note, and output folders.) Tj
 ET
 BT
 /F1 10 Tf
 72 394 Td
-(descriptive data work toward empirical economic reasoning: defining a policy question, building) Tj
-ET
-BT
-/F1 10 Tf
-72 380 Td
-(the data unit, estimating the model, testing assumptions, and documenting limitations.) Tj
+(Restricted course data should stay outside the repo.) Tj
 ET
 endstream
 endobj
@@ -146,5 +141,5 @@ xref
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-3160
+2993
 %%EOF
