@@ -1,8 +1,21 @@
 # Tariff DID Trade Project
 
+![Status](https://img.shields.io/badge/status-portfolio%20replication%20package-blue)
+![Data](https://img.shields.io/badge/data-synthetic%20sample-lightgrey)
+![Method](https://img.shields.io/badge/method-DID%20%2B%20event%20study-green)
+
 This repository is a quasi-replication package and policy-brief portfolio project for an applied economics coursework study. It asks whether a tariff-policy event affected Chinese provincial exports to the United States using a province-destination country-month panel from November 2024 to April 2025.
 
 The project is intentionally framed as a course empirical project, not as a published causal study. Its purpose is to demonstrate reproducible research habits, identification reasoning, robustness diagnostics, and transparent limitations.
+
+## What to Review First
+
+| Artifact | Why it matters |
+| --- | --- |
+| [`paper/tariff_did_research_brief.pdf`](paper/tariff_did_research_brief.pdf) | One-page research brief suitable for a writing sample. |
+| [`code/00_master.do`](code/00_master.do) | Master script showing the full Stata workflow. |
+| [`docs/methodology_note.md`](docs/methodology_note.md) | Identification logic, specification choices, and limitations. |
+| [`docs/reproducibility_checklist.md`](docs/reproducibility_checklist.md) | Replication-package checklist modeled on research-assistant workflows. |
 
 ## Research Question
 
@@ -54,6 +67,14 @@ do code/00_master.do
 
 The master script regenerates processed data, tables, figures, logs, and the reproducibility manifest. The repository includes synthetic sample data so the workflow can be inspected without redistributing private coursework or paid database exports.
 
+## Skills Demonstrated
+
+- Panel-data construction from raw province-destination-month inputs.
+- Fixed-effects DID specification and event-study diagnostics.
+- Placebo timing and robustness checks.
+- Research transparency through data documentation, logs, and a reproducibility checklist.
+- Policy-facing communication through a concise research brief.
+
 ## Structure
 
 ```text
@@ -90,4 +111,3 @@ The committed sample files are synthetic and for reproducibility demonstration o
 ## Portfolio CV Line
 
 Built a reproducible Stata package for a course empirical project on tariff policy and cross-border trade, including panel construction, fixed-effects DID, event-study diagnostics, placebo checks, and a one-page research brief.
-
