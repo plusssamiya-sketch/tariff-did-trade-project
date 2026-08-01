@@ -1,0 +1,150 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2713 >>
+stream
+BT
+/F2 18 Tf
+72 724 Td
+(Tariff Policy and Cross-Border Trade) Tj
+ET
+BT
+/F2 12 Tf
+72 680 Td
+(One-Page Research Brief) Tj
+ET
+BT
+/F1 10 Tf
+72 660 Td
+(Question. Did a tariff-policy event affect Chinese provincial exports to the United States) Tj
+ET
+BT
+/F1 10 Tf
+72 646 Td
+(relative to less-exposed destination markets during November 2024-April 2025? Data and unit. The) Tj
+ET
+BT
+/F1 10 Tf
+72 632 Td
+(analysis uses a province-destination country-month panel. The committed sample data are) Tj
+ET
+BT
+/F1 10 Tf
+72 618 Td
+(synthetic and show the expected structure; real coursework data should be documented but not) Tj
+ET
+BT
+/F1 10 Tf
+72 604 Td
+(uploaded if redistribution is restricted. Method. The main specification is a fixed-effects) Tj
+ET
+BT
+/F1 10 Tf
+72 590 Td
+(difference-in-differences model. The outcome is log export value. The treatment indicator marks) Tj
+ET
+BT
+/F1 10 Tf
+72 576 Td
+(exports to the policy-exposed destination group, and the post indicator marks months after the) Tj
+ET
+BT
+/F1 10 Tf
+72 562 Td
+(policy event. Controls include exchange rate, province GDP growth, and inflation where) Tj
+ET
+BT
+/F1 10 Tf
+72 548 Td
+(available. Identification logic. The estimate compares changes in policy-exposed trade flows) Tj
+ET
+BT
+/F1 10 Tf
+72 534 Td
+(with changes in less-exposed flows before and after the event. The core assumption is) Tj
+ET
+BT
+/F1 10 Tf
+72 520 Td
+(conditional parallel trends: in the absence of the policy event, treated and comparison flows) Tj
+ET
+BT
+/F1 10 Tf
+72 506 Td
+(would have followed similar paths after fixed effects and controls. Diagnostics. The package) Tj
+ET
+BT
+/F1 10 Tf
+72 492 Td
+(generates a descriptive table, a parallel-trend figure, a baseline DID table, an event-study) Tj
+ET
+BT
+/F1 10 Tf
+72 478 Td
+(figure, and a placebo/robustness table. These outputs are designed to make identification risks) Tj
+ET
+BT
+/F1 10 Tf
+72 464 Td
+(visible rather than hide them. Interpretation. The project is best read as evidence of applied-) Tj
+ET
+BT
+/F1 10 Tf
+72 450 Td
+(economics preparation. It demonstrates panel construction, treatment definition, fixed effects,) Tj
+ET
+BT
+/F1 10 Tf
+72 436 Td
+(robustness thinking, and reproducible workflow design. Because the project is based on) Tj
+ET
+BT
+/F1 10 Tf
+72 422 Td
+(coursework and a short time window, results should be described cautiously and not presented as) Tj
+ET
+BT
+/F1 10 Tf
+72 408 Td
+(definitive policy evaluation. Portfolio contribution. This project shows movement from) Tj
+ET
+BT
+/F1 10 Tf
+72 394 Td
+(descriptive data work toward empirical economic reasoning: defining a policy question, building) Tj
+ET
+BT
+/F1 10 Tf
+72 380 Td
+(the data unit, estimating the model, testing assumptions, and documenting limitations.) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3160
+%%EOF
