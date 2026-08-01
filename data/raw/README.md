@@ -1,6 +1,6 @@
 # Raw Data
 
-This folder documents raw inputs for the portfolio package.
+This folder documents the raw input files expected by the Stata scripts.
 
 ## Included Files
 
@@ -28,4 +28,3 @@ Do not commit:
 - data that cannot be redistributed
 
 If a raw source is restricted, document the source name, access route, variable list, and cleaning steps without uploading the restricted file.
-
