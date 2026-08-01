@@ -10,9 +10,8 @@
 
 **Identification logic.** The estimate compares changes in policy-exposed trade flows with changes in less-exposed flows before and after the event. The core assumption is conditional parallel trends: in the absence of the policy event, treated and comparison flows would have followed similar paths after fixed effects and controls.
 
-**Diagnostics.** The package generates a descriptive table, a parallel-trend figure, a baseline DID table, an event-study figure, and a placebo/robustness table. These outputs are designed to make identification risks visible rather than hide them.
+**Diagnostics.** The scripts create a descriptive table, a parallel-trend figure, a baseline DID table, an event-study figure, and a placebo/robustness table. I used these outputs to check whether the DID setup looked reasonable, especially because the sample period is short.
 
-**Interpretation.** The project is best read as evidence of applied-economics preparation. It demonstrates panel construction, treatment definition, fixed effects, robustness thinking, and reproducible workflow design. Because the project is based on coursework and a short time window, results should be described cautiously and not presented as definitive policy evaluation.
+**Interpretation.** This is a course project, so I would not present it as a definitive policy evaluation. The useful parts are the data unit, treatment definition, fixed effects, event-study check, and notes on where the design is weak.
 
-**Portfolio contribution.** This project shows movement from descriptive data work toward empirical economic reasoning: defining a policy question, building the data unit, estimating the model, testing assumptions, and documenting limitations.
-
+**What I kept in the public version.** The GitHub version keeps the numbered Stata scripts, sample input files, data dictionary, methodology note, and output folders. Restricted course data should stay outside the repo.
