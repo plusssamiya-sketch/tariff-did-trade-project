@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you reference this portfolio replication package, please cite it using this metadata."
+title: "Tariff DID Trade Project"
+authors:
+  - family-names: "Samiya"
+    given-names: "Plus"
+repository-code: "https://github.com/plusssamiya-sketch/tariff-did-trade-project"
+type: software
+license: MIT
+keywords:
+  - applied economics
+  - difference-in-differences
+  - trade policy
+  - reproducible research
+abstract: "A portfolio replication package demonstrating panel-data construction, fixed-effects DID, event-study diagnostics, placebo checks, and policy-brief writing for a tariff and trade application."
