@@ -20,7 +20,7 @@ The package includes:
 
 ## Interpretation Limits
 
-This is a course empirical project. It should not be overclaimed as definitive causal evidence. The main contribution is transparent empirical reasoning: defining treatment exposure, documenting controls, checking diagnostics, and explaining where causal interpretation is vulnerable.
+This is a course empirical project. It should not be overclaimed as definitive causal evidence. The main useful parts are the treatment definition, controls, diagnostic checks, and notes on where causal interpretation is weak.
 
 ## Threats to Validity
 
@@ -28,4 +28,3 @@ This is a course empirical project. It should not be overclaimed as definitive c
 - The period is short, limiting pre-trend diagnostics.
 - Trade values may respond to exchange rates, inventory timing, demand shifts, or reporting seasonality.
 - Publicly shareable data may require anonymization or synthetic replacement.
-
