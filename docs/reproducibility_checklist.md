@@ -1,6 +1,6 @@
 # Reproducibility Checklist
 
-This checklist follows the spirit of economics replication-package guidance such as AEA Data Editor expectations and World Bank reproducible research practices.
+This checklist is for keeping the course project folders easy to inspect later.
 
 ## Package Structure
 
@@ -28,5 +28,4 @@ This checklist follows the spirit of economics replication-package guidance such
 
 - [x] Expected tables and figures are named in README files.
 - [x] Research brief references the expected tables and figures.
-- [x] Interpretation distinguishes coursework evidence from published causal claims.
-
+- [x] Interpretation separates coursework results from stronger causal claims.
