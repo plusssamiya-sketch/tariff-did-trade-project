@@ -1,8 +1,8 @@
 # Tariff DID Trade Project
 
-This is a cleaned GitHub version of a course empirical project. The question is whether a tariff-policy event was related to changes in Chinese provincial exports to the United States, using a province-destination country-month panel from November 2024 to April 2025.
+This is a cleaned public version of a course empirical project. It shows how I organized a tariff-policy question into a province-destination-month panel and a fixed-effects difference-in-differences workflow in Stata.
 
-The original course data are not uploaded. The repository includes small synthetic sample files with the same column structure, so the Stata code and folder layout can still be checked.
+The original course data are not uploaded. The repository includes small synthetic sample files with the same column structure, so the code, folder layout, and identification logic can be inspected. Results produced from the committed sample files are workflow checks only; they should not be interpreted as evidence about real trade flows.
 
 ## Files to Check
 
@@ -11,16 +11,16 @@ The original course data are not uploaded. The repository includes small synthet
 | [`paper/tariff_did_research_brief.pdf`](paper/tariff_did_research_brief.pdf) | Short write-up of the question, method, and limits. |
 | [`code/00_master.do`](code/00_master.do) | Runs the Stata scripts in order. |
 | [`docs/methodology_note.md`](docs/methodology_note.md) | Notes on the DID setup and identification assumption. |
-| [`docs/reproducibility_checklist.md`](docs/reproducibility_checklist.md) | Checklist for files, logs, and outputs. |
+| [`docs/reproducibility_checklist.md`](docs/reproducibility_checklist.md) | Checklist for files, logs, outputs, and remaining verification. |
 
 ## Research Question
 
-Did the tariff-policy event affect Chinese provincial exports to the U.S. relative to less-exposed destination markets before and after the event?
+How can a tariff-policy event be studied using Chinese provincial exports to a policy-exposed destination group relative to less-exposed destination markets?
 
 ## Data Unit and Period
 
 - Unit of observation: province-destination country-month.
-- Period: November 2024-April 2025.
+- Public sample period: November 2024-April 2025.
 - Outcome: log export value.
 - Treatment: trade flows to the policy-exposed destination group.
 - Post period: months after the tariff-policy event.
@@ -42,14 +42,14 @@ Controls include exchange rate, provincial GDP growth, and inflation where avail
 
 ## Identification Logic
 
-The DID estimate compares changes in exports to policy-exposed destinations with changes in exports to less-exposed destinations before and after the event. The main identifying assumption is that, absent the policy shock, treated and comparison trade flows would have followed parallel trends after conditioning on controls and fixed effects.
+The DID estimate compares changes in exports to policy-exposed destinations with changes in exports to less-exposed destinations before and after the event. The key assumption is conditional parallel trends: absent the policy event, treated and comparison trade flows would have followed similar paths after conditioning on controls and fixed effects.
 
-The repo includes:
+The code includes:
 
 - descriptive checks
-- parallel-trend diagnostics
+- parallel-trend diagnostic figure
 - fixed-effects DID baseline
-- event-study diagnostics
+- event-study diagnostic structure
 - placebo timing check
 - robustness table
 
@@ -61,14 +61,15 @@ Run the full project in Stata from the repository root:
 do code/00_master.do
 ```
 
-The master script is set up to regenerate processed data, tables, figures, logs, and a manifest. The sample data are only included to show the expected file structure.
+The master script is designed to regenerate processed data, tables, figures, logs, and a manifest. I have kept the public README cautious because the committed data are synthetic and Stata execution still needs to be verified on a machine with Stata installed.
 
 ## What I Practiced
 
 - Building a province-destination-month panel.
+- Defining treatment, post, and event-time variables.
 - Writing a fixed-effects DID specification in Stata.
 - Adding event-study and placebo-timing checks.
-- Keeping data notes, logs, and output folders organized.
+- Keeping data notes, scripts, and output folders organized without uploading restricted coursework data.
 
 ## Structure
 
@@ -105,4 +106,4 @@ The committed sample files are synthetic. If real coursework data cannot be publ
 
 ## Short CV Note
 
-Built a reproducible Stata package for a course empirical project on tariff policy and cross-border trade, including panel construction, fixed-effects DID, event-study diagnostics, placebo checks, and a one-page research brief.
+Built a reproducible Stata workflow for a course empirical project on tariff policy and cross-border trade, including panel construction, fixed-effects DID structure, event-study diagnostics, placebo checks, and a short research brief using public sample data.
