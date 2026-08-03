@@ -27,5 +27,6 @@ This checklist is for keeping the course project folders easy to inspect later.
 ## Outputs
 
 - [x] Expected tables and figures are named in README files.
-- [x] Research brief references the expected tables and figures.
+- [x] Research brief explains that sample-data outputs are workflow checks, not substantive findings.
+- [ ] Generated Stata tables and figures should be committed after the workflow is run in Stata, or the README should continue to describe them as generated outputs rather than already-available results.
 - [x] Interpretation separates coursework results from stronger causal claims.
