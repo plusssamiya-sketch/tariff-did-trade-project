@@ -8,7 +8,7 @@ The original course data are not uploaded. The repository includes small synthet
 
 | Artifact | Why it matters |
 | --- | --- |
-| [`paper/tariff_did_research_brief.pdf`](paper/tariff_did_research_brief.pdf) | Short write-up of the question, method, and limits. |
+| [`paper/tariff_did_research_brief.md`](paper/tariff_did_research_brief.md) | Short write-up of the question, method, and limits. |
 | [`code/00_master.do`](code/00_master.do) | Runs the Stata scripts in order. |
 | [`docs/methodology_note.md`](docs/methodology_note.md) | Notes on the DID setup and identification assumption. |
 | [`docs/reproducibility_checklist.md`](docs/reproducibility_checklist.md) | Checklist for files, logs, outputs, and remaining verification. |
